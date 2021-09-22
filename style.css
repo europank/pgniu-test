@@ -112,6 +112,18 @@ input:focus-visible {
     text-decoration: underline 2px rgba(23, 169, 232);
 }
 
-#name {
-    margin-top: 22px;
+.custom-placeholder {
+    font-size: 15px;
+    position: absolute;
+    top: 40px;
+    left: 15px;
+    color: rgba(208, 201, 214);
+}
+
+.custom-placeholder-container {
+    position: relative;
+}
+
+.custom-placeholder:hover {
+    text-decoration: underline 3px rgba(106, 32, 243, 0.8);
 }
