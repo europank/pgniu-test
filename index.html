@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta content="width=device-width">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext">
+        <title>Форма: задать вопрос</title>
+            </head>
+    <body>
+        <header class="page-header">
+                <div class="container">
+                   <form class="form" action="#" enctype="text/plain" autocomplete="off">
+                       <h1>Задать вопрос</h1>
+                       <input type="text" class="formfield placeholdertext" id="name" name="name" placeholder="Фамилия Имя Отчество *" pattern="^[а-яА-ЯёЁ\s-]+$" required>
+                       <input type="tel" class="formfield placeholdertext" id="phone" name="phone" placeholder="Телефон *" pattern="[-+\s\d]{7,18}" required>
+                       <input type="email" class="formfield placeholdertext" id="mail" name="mail" placeholder="Email">
+                       <input type="submit" class="formfield submit" id="submit" value="Отправить запрос">
+                   </form>
+               </div>
+        </header>
+        <script src="upload.js"></script>
+    </body>
+    <footer>
+    </footer>
+</html>
