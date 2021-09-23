@@ -1,6 +1,6 @@
 'use strict';
 
-const url = 'https://60376bfd5435040017722533.mockapi.io/formRej';
+const url = 'https://60376bfd5435040017722533.mockapi.io/form';
 const form = document.querySelector('.form');
 
  function upload(data) {
